@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+
+}
+
+.container > img {
+    
+    width: 100%;
+
+}
+
+.Card {
+    padding: 1%;
+    max-width: 30%;
+    height: auto;
+    position: absolute;
+    top: 1%;
+    left: 15%;
+    margin: 3%;
+    background-color: white;
+    
+}
+
+.Card > h1 {
+    font-size: 60px;
+    text-align: left;
+    padding: 1%;
+}
+
+.Card > p {
+    padding: 1%;
+    font-size: 30px;
+}
+
+.Card > button {
+    margin: 1%;
+    font-size: 30px;
+    padding: 2%;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 20px;
+}
+
+.Card > a {
+    font-size: 1rem;
+    color: black;
+    padding: 1%;
+}
+
+#button1 {
+    background-color: gray;
+}
+
+.input {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 1800px){
+    .container {
+        position: relative;
+        display: inline;
+        width: 100%;
+    }
+       
+    .Card {
+        display: inline;
+        padding: 0%;
+        width: 100%;
+        min-height: auto;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        
+        background-color: white;
+        
+        
+    }
+      
+    
+    
+}
+
+

@@ -1,0 +1,63 @@
+.container_com4 {
+    display: flex;
+    position: relative;
+    
+}
+
+
+.container_com4 > img {
+    width: 100%;
+    display: block;
+}
+
+.container_com4 > p {
+    position: absolute;
+    font-size: 4rem;
+    font: Bold;
+    top: 10%;
+    margin-left: 18%;
+    display: block;
+
+}
+
+.container_com4 > p1 {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 40%;
+    margin-left: 18%;
+    display: block;
+}
+
+.container_com4 > button {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 70%;
+    margin-left: 18%;
+    display: block;
+    padding: 20px;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font: bold;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1500px) {
+    .container_com4 > p {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .container_com4 > p1 {
+        margin: auto;
+        font-size: 10px;
+    }
+
+    .container_com4 > button {
+        margin: auto;
+        font-size: 10px;
+        padding: 2px;
+        width: 60px;
+    }
+}

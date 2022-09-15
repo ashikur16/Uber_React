@@ -1,0 +1,167 @@
+*{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .Topbar {
+    background-color: black;
+    display: flex;
+    gap: 1rem;
+
+  }
+  
+  .TopLeft {
+    margin-left: 200px;
+    width: 50%;
+
+   
+  }
+  
+  .TopLeft > img {
+    margin-top: 0.6rem;
+    display: inline-flex;
+    float: left;
+    width: 10rem;
+    cursor: pointer;
+
+   
+
+  }
+  
+  .TopLeft > p {
+    display: inline-flex;
+    font-size: 25px;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 5px;
+    font: bold;
+
+   
+  }
+  
+  .TopLeft > p:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  .TopRight {
+    width: 50%;
+    margin-right: 30rem;
+  }
+  
+  .TopRight > p {
+    float: right;
+    text-align: right;
+    display: inline-flex;
+    font-size: 25px;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 5px;
+    font: bold;
+
+  
+
+
+  }
+  
+  .TopRight > p:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  #SignUp {
+    background-color: white;
+    border-radius: 10rem;
+    color: black;
+    padding: 5px;
+    max-width: 6rem;
+  }
+  
+  #SignUp:hover {
+    background-color: lightgray;
+    color: black;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-flex;
+  }
+
+
+  .dropdown > p{
+    float: right;
+    text-align: right;
+    display: inline-flex;
+    font-size: 25px;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 5px;
+    font: bold;
+  }
+
+  .dropdown > p:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content > p {
+    font-size: 1.1rem;
+    padding: 0.3rem 0rem 0.3rem 1rem; /*top right bottom left */
+    font: bold;
+    color: gray;
+  }
+
+  .dropdown-content > p:hover{
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    top: 6.2rem;
+    left: 2rem;
+  }
+
+
+  @media(max-width: 1800px){
+
+    .TopLeft {
+      display: grid;
+      margin-left: 0px;
+      width: 100%;
+
+    }
+
+    .TopRight {
+      display: grid;
+      margin-left: 0px;
+      margin-Right: 0px;
+      width: 100%;
+
+    }
+
+    #SignUp {
+      padding: 5px;
+      
+    }
+  }
+
+ 
+  
+  
+  
+  

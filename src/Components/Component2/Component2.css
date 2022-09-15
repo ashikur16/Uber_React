@@ -1,0 +1,37 @@
+
+.container_Comp2 {
+    background-color: #EBF4FA;
+    padding: 10px;
+}
+
+.container_Comp2 > h2 {
+    color: rgb(103, 75, 75);
+    margin-left: 25rem;
+}
+
+.container_Comp2 > p {
+    color: black;
+    margin-left: 25rem;
+}
+
+.container_Comp2 > a {
+    color: black;
+    margin-left: 25rem;
+}
+
+
+@media (max-width: 1800px) {
+    
+    .container_Comp2 > h2 {
+        margin-left: 0rem;
+    }
+
+    .container_Comp2 > p {
+        margin-left: 0rem;
+    }
+
+    .container_Comp2 > a {
+        margin-left: 0rem;
+    }
+    
+}
