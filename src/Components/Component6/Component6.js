@@ -61,16 +61,19 @@ const ContainersHead = styled.div`
 
 const Container1 = styled.div`
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     margin: 2px;
     // padding: 2px;
-    padding-left: 560px;
-    padding-right: 560px;
+    // padding-left: 560px;
+    // padding-right: 560px;
+
+    // padding-left: 15%;
 
     @media (max-width: 1200px) {
       display: grid;
-      vertical-align: middle;
-      align-items: center;
+      justify-content: center;
+    //   vertical-align: middle;
+    //   align-items: center;
       padding: 0%;
     }
     
@@ -118,8 +121,6 @@ const Card = styled.div`
         font-size: 2rem;
         padding-left: 2rem;
         cursor: pointer;
-
-        
     }
 
     svg {
@@ -127,15 +128,12 @@ const Card = styled.div`
     }
 
     @media (max-width: 1200px) {
-      display: grid;
+    //   display: grid;
       vertical-align: middle;
       align-items: center;
       padding: 2%;
       margin: 1rem;
     }
-
-
-    
 `;
 
 const Card2 = styled.div`

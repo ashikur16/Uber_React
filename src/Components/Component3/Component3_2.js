@@ -108,7 +108,7 @@ const SLink = styled(NavLink)`
 
 const FormStyle = styled.form`
    
-    margin: 0rem 2rem;
+    margin: 0rem 0rem;
     display: inline-block;
     position: relative;
     width: 100%;
@@ -121,7 +121,8 @@ const FormStyle = styled.form`
         font-weight: 600;
         color: black;
         padding: 1rem;
-        width: 35rem;
+        // width: 35rem;
+        width: 80%;
         height: 2rem;
         margin: 1rem;
         display: flex;
@@ -135,10 +136,8 @@ const FormStyle = styled.form`
         right: 18%;
         color: gray;
         // margin-top: 0.5rem;  
-        margin: auto; 
-    }
-
-    
+        // margin: auto; 
+    }    
 `;
 
 export default Component3_2;
