@@ -96,7 +96,10 @@ const Container = styled.div`
       display: grid;
       vertical-align: middle;
       align-items: center;
-      padding: 0%;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0px;
+     
     }
     
 `;
@@ -104,7 +107,6 @@ const Container = styled.div`
 const Card = styled.div`
     width: 35rem;
     margin: 2rem;
-    background: white;
 
     h1 {
       margin-left: 25%,
@@ -131,6 +133,21 @@ const Card = styled.div`
 
     svg {
       font-size: 2rem;
+    }
+
+    @media (max-width: 1200px) {
+      display: grid;
+      vertical-align: middle;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      margin-left: 1.5%;
+      margin-right: 0%;
+
+      img {
+        width: 100%;
+      }
+     
     }
     
 `;
